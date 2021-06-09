@@ -58,7 +58,7 @@ WHERE location = 'Argentina'
 ORDER BY 1,2;
 
 
--- Paesi con la percentuale della popolazione infettata più alta al giorno di oggi
+-- Paesi con la percentuale della popolazione infettata piÃ¹ alta al giorno di oggi
 SELECT location, total_cases, population, (total_cases / population)*100 AS population_infected_percentage
 FROM covid_deaths
 WHERE day_of_year = '2021-06-07 00:00:00.000' AND continent is not null
@@ -73,7 +73,7 @@ GROUP BY location, population
 ORDER BY morti_per_100000hab DESC;
 
 
--- Costruire una view per salvare i dati più tardi
+-- Costruire una view per salvare i dati piÃ¹ tardi
 CREATE VIEW DeathsPerCountryPerc AS
 SELECT location, MAX(total_deaths) as max_total_deaths, population, MAX((total_deaths / population)*100000) as morti_per_100000hab
 FROM covid_deaths
@@ -109,7 +109,7 @@ GROUP BY day_of_year
 ORDER BY day_of_year ASC;
 
 
--- Selezionare i giorni con più del 3% di morti per nuovi casi
+-- Selezionare i giorni con piÃ¹ del 3% di morti per nuovi casi
 SELECT day_of_year, SUM(new_cases) AS world_new_cases, SUM(new_deaths) AS world_new_deaths, SUM(new_deaths)/SUM(new_cases)*100 AS death_percentage 
 FROM covid_deaths
 WHERE continent is not null
@@ -185,7 +185,7 @@ FROM deaths_by_country
 ORDER BY deaths_per_100000hab DESC;
 
 
--- Aggiungere delle categorie secondo il rapporto della media del paese con la media del mondo per 100.000ab
+-- Aggiungere colonna con il rapporto della media del paese con la media del mondo per 100.000ab
 WITH deaths_by_country (location, max_total_deaths, population, deaths_per_100000hab) AS
 (
 SELECT location, MAX(total_deaths) as max_total_deaths, population, MAX((total_deaths / population)*100000) as deaths_per_100000hab
