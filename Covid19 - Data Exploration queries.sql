@@ -129,7 +129,7 @@ WHERE dea.continent is not null
 ORDER BY 2,3
 
 
--- Aggiungere la percentuale della popolazione vaccinata almeno con una dosi alla tabella utilizzando una CTE
+-- Aggiungere la percentuale delle vaccinazioni rispetto alla popolazione alla tabella utilizzando una CTE
 WITH PopvsVac (continent, location, day_of_year, population, new_vaccinations, vaccinations_cumulated)
 AS
 (
