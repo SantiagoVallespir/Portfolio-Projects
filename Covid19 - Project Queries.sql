@@ -1,3 +1,6 @@
+/* Queries utilizzate per il report in Tableau */
+
+
 USE covid_19;
 
 ALTER TABLE covid_vaccinations ALTER COLUMN total_vaccinations INT;
