@@ -14,5 +14,5 @@ Starting with a Netflix movies simple dataset i get data from another sources (T
 - Data wrangling
 - Metric building
 - Descriptive statistics
-- OOP: develop ad-hoc programs
+- OOP: develop ad-hoc programs, inheritance, polymorphism
 - Reporting
