@@ -13,8 +13,15 @@ Besides, an ad-hoc python package ("Movie Pandas") built on Pandas was developed
 From an original Netflix movie's dataset (netflix_movies_dataset.xlsx) we connect to TMDB API and we download aditional data useful for its analysis.
 Competences showed:
 - Communicate with API's
-- Data Manipulation
-- Data Validation
+- Data manipulation
+- Data validation
 - Data cleaning
 
 ## 2. Followers scraping
+
+We automatize Google queries to get Instagram followers of the main cast (5 principal actors or actresses) of every movie. 
+Competences showed:
+- Web scraping
+- Data cleaning
+
+## 3. D
