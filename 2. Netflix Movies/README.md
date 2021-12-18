@@ -24,4 +24,8 @@ Competences showed:
 - Web scraping
 - Data cleaning
 
-## 3. D
+## 3. Build the DataFrame
+
+We made the last validations of the data and we define the structure of the final DataFrame on wich the package is build. Besides, we build interesting new columns useful for the analysis.
+- Data cleansing
+- Feature engineering
