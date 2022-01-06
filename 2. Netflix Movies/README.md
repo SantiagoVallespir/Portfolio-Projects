@@ -27,5 +27,15 @@ Competences showed:
 ## 3. Build the DataFrame
 
 We made the last validations of the data and we define the structure of the final DataFrame on wich the package is build. Besides, we build interesting new columns useful for the analysis.
+Competences showed:
 - Data cleansing
 - Feature engineering
+
+
+## 4. Netflix EDA
+
+We realize the Exploratory Data Analysis of the dataset getting some insights about every single columns.
+Competences showed:
+- Data Visualization
+- Descriptive statistics
+- Exploratory data analysis
