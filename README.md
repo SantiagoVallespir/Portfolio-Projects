@@ -25,3 +25,18 @@ Several notebooks i used while learning summary statistics, inferential statisti
 In this simulated experiment, we try to discover if a modification in our company's advertisement can lead to an increase on its click-rate. We want to get an idea of how our new ad can increase the user's interest, and therefore increase the number of clicks.
 
 To this reason, we simulate an ***A/B test*** in which 500 users are directed to the old ad (control group) and 500 users are directed to the new ad (test group). The test group will have a 48% click rate increase. We want to determine statistically whether that difference is due to chance or is statistically significant.
+
+### 3.2. Descriptive statistics and probability.
+In this notepad we try to get insigths about FIFA football international results from 1872 to 2022. The analysis is carried trying to answer the following questions:
+- Is the number of goals increasing by match ever year?
+- How total goals by match are distributed?
+- What can we expect for next years?
+- How frequently we can see a 10 or more goals match?
+- How much we have to wait to see a 10 or more goals match?
+- Home team is more likely to win?
+
+#### Competences showed:
+- EDA
+- Probability distributions and modelling (Binomial, Poisson, Exponential)
+- Bootstrapping
+- Parameter Estimation
