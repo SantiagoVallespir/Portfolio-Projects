@@ -52,17 +52,21 @@ In this notepad we try to get insigths about FIFA football international results
 
 # 4. Tableau visualizations
 Link: https://public.tableau.com/app/profile/santiago.vallespir7494#!/?newProfile=&activeTab=0
+
 Some Tableau visualizations useful for Data Analytics
 
 ### 4.1. Choose your room!/AirBnB Rome
 Choose your room!: interactive visualization of Rome's airbnb locations to choose a favourite one based on neighborhood, room type, nights and budget
+
 Link: https://public.tableau.com/app/profile/santiago.vallespir7494/viz/ChooseyourRoom/ChooseyourRoom
 
 AirBnB Rome: interactive dashboard with market estimate and potential revenues
+
 Link:https://public.tableau.com/app/profile/santiago.vallespir7494/viz/AirbnbRoma_16245298983230/Stimadelmercatopotenzialiricavi
 
 ### 4.2 Winter olympics
 Analytics dashboard with general performance on 2018 Winter Olympics
+
 Link: https://public.tableau.com/app/profile/santiago.vallespir7494/viz/Winterolympics_16245278401520/Dashboard1
 
 By country: https://public.tableau.com/app/profile/santiago.vallespir7494/viz/WinterOlympicsbycountry/Dashboard2
