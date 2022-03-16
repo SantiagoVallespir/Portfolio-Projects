@@ -3,7 +3,15 @@ Personal projects
 
 
 # 1. Covid-19
-Exploratory analysis of the pandemic trend. We store the data in a DBMS (SQL Server), we explore both within the database as in a python script and we build a report in Tableau showing several interesting metrics to understand the pandemic at a glance.
+We store covid data in a DBMS (SQL Server), we explore both within the database with sample Transact-SQL queries and we automate the actualization of the DB with new data.
+### SQL competences showed:
+- Build a DB
+- Complex queries (CTE, Windows functions, views, joins, nested queries)
+- Data modelling
+### Python competences showed:
+- Connect to a database
+- Query the database
+- Automate data loading into DB
 
 
 # 2. Netflix movies Data Analysis project
