@@ -1,0 +1,6 @@
+2022-Apr-18-20:20:34, ETL Job Started
+2022-Apr-18-20:20:37, Extract phase started
+2022-Apr-18-20:20:47, Extract phase finished
+2022-Apr-18-20:20:49, Transform phase started
+2022-Apr-18-20:20:56, Transform phase finished
+2022-Apr-18-20:20:58, ETL process finished
