@@ -70,3 +70,34 @@ Analytics dashboard with general performance on 2018 Winter Olympics
 Link: https://public.tableau.com/app/profile/santiago.vallespir7494/viz/Winterolympics_16245278401520/Dashboard1
 
 By country: https://public.tableau.com/app/profile/santiago.vallespir7494/viz/WinterOlympicsbycountry/Dashboard2
+
+
+# 5. ETL process
+The main idea is to apply an ETL (Extract, Transform and Load) process in a reduced scale, using python and handling diverse file formats (.csv, .json). 
+
+The taks is to build a dataset containing the 50 biggest companies in the world by revenue including their revenue in diverse currencies (USD, EUR, GDP, JPY, BRL, ARS) and two columns with data from the company's country of origin.
+
+To accomplish this task, the project is divided in three main sections:
+
+**1. Extract**: data from different sources is collected and extracted into our local environment.
+- **Web scraping:** a list of the 50 largest companies by revenue is scraped from Wikipedia using the library "Beautiful Soup".
+
+Link: https://en.wikipedia.org/wiki/List_of_largest_companies_by_revenue
+
+- **API communication:** the exchange rate from EUR to diverse currencies are downloaded in a .json format from "Exchange rates" api
+
+Link: http://api.exchangeratesapi.io
+
+- **Downloading datasets:** two datasets (population, gdp per capita) are downloaded from Gapminder.
+
+Link: https://www.gapminder.org/data/
+
+> Two different modules (***collect_data.py*** and ***etl_module.py***) are written to perform the operations on this section
+
+**2. Transform:** some data manipulation operations are carried on to build the main .csv file
+- Data cleaning
+- Currency conversion
+- Merging
+
+**3. Load:*** export the resulting DataFrame to a unique .csv file called "final_dataset.csv".
+> To load the dataset into a RDMBS data can be normalized.
