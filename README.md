@@ -32,6 +32,9 @@ The main idea is to apply an ETL (Extract, Transform and Load) process in a redu
 The taks is to build a dataset containing the 50 biggest companies in the world by revenue including their revenue in diverse currencies (USD, EUR, GDP, JPY, BRL, ARS) and two columns with data from the company's country of origin.
 
 To accomplish this task, the project is divided in three main sections: Extract; Transform; Load
+- Extract: the main data is scraped from https://www.wikipedia.org/, while the currencies are take taken from http://api.exchangeratesapi.io
+- Transform: data is processed to build a main dataset integrating both data sources.
+- Load: the dataset is saved locally in .csv format
 
 ### Competences showed:
 - ETL
