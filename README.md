@@ -5,11 +5,11 @@ Personal projects
 # 1. Covid-19: ETL process with Python and Data Analysis with SQL
 The objective is to build a data pipeline that autonomously loads data related to Covid-19 in a PostgreSQL database. The data was taken from https://ourworldindata.org/ 
 
-- **A. Create database:** we run the "create_db.py" script, which communicates with PostgreSQL and build a DB with two tables. It loads all data gathered until the 01/06/2022, the day the database was created.
+- **A. Create database:** we run "create_db.py" script, which communicates with PostgreSQL and build a DB with two tables. It loads all data gathered until the 01/06/2022, the day the database was created.
 - **B. Extract:** a new raw dataset is downloaded and stored locally
 - **C.  Transform:** we get data we need excluding data that is already on the DB (filtering by date) and we prepare it to be consistent while loading. A new file ready to be loaded is saved locally.
 - **D. Load:** we automate the loading into the DB.
-- **E. Run ETL:** we run the execute_etl.py from bash and load new data into DB.
+- **E. Run ETL:** we run "execute_etl.py" from bash and load new data into DB.
 - **F. Data Analysis with SQL:** we run a bunch of queries to analize the results
 
 ### Python competences showed:
