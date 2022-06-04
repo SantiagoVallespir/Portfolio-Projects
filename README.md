@@ -10,7 +10,7 @@ The objective is to build a data pipeline that autonomously loads data related t
 - **C.  Transform:** we get data we need excluding data that is already on the DB (filtering by date) and we prepare it to be consistent while loading. A new file ready to be loaded is saved locally.
 - **D. Load:** we automate the loading into the DB.
 - **E. Run ETL:** we run "execute_etl.py" from bash and load new data into DB.
-- **F. Data Analysis with SQL:** we run a bunch of queries to analize the results
+- **F. Data Analysis with SQL:** we make some queries to analize Covid-19 pandemic.
 
 ### Python competences showed:
 - Creating a DB
