@@ -1,0 +1,4 @@
+2022-Jun-04-12:40:09, The DB was created
+2022-Jun-04-12:40:34, Data extracted
+2022-Jun-04-12:40:37, Data transformed ready to be loaded
+2022-Jun-04-12:40:37, Data loaded into DB
