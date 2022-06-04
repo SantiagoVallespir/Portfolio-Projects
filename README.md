@@ -7,7 +7,7 @@ The objective is to build a data pipeline that autonomously loads data related t
 
 - **A. Create database:** we run the create_db.py script, which communicates with PostgreSQL and build a DB with two tables. It loads all data gathered until the 01/06/2022, the day the database was created.
 - **B. Extract:** a new raw dataset is downloaded and stored locally
-- **C.  Transform:** we get data we need excluding data that is already on the DB (filtering by date) and we prepare it to be consistent while loading.
+- **C.  Transform:** we get data we need excluding data that is already on the DB (filtering by date) and we prepare it to be consistent while loading. A new file ready to be loaded is saved locally.
 - **D. Load:** we automate the loading into the DB.
 - **E. Run ETL:** we execute the run_etl.py from bash run the process and load new data into DB.
 - **F. Data Analysis with SQL:** we run a bunch of queries to analize the results
@@ -16,6 +16,7 @@ The objective is to build a data pipeline that autonomously loads data related t
 - Creating a DB
 - Automate data loading into DB
 - OOP
+- Automate a logfile
 ### SQL competences showed:
 - Complex queries (CTE, Windows functions, joins, nested queries)
 - Views
