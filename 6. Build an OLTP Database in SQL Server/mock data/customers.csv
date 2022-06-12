@@ -1,0 +1,5 @@
+id,first_name,last_name,email,telephone,address,postal_code,city_id
+1,Juan,Perez,juanperez@gmail.com,+54 9 11 4488-3321,Av. Rivadavia 101,1406,1
+2,Jose,Garcia,josegarcia@gmail.com,+54 9 11 4499-3322,Piedras 53,1408,1
+3,Maria,Hernandez,mariahernandez@gmail.com,+55 9 11 4588-3311,Rua Barata Ribeiro 83,8899,2
+4,Pedro,Mendez,pedromendez@gmail.com,+54 9 11 4499-3333,Av. Independencia 201,1906,3
