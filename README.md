@@ -97,3 +97,16 @@ Analytics dashboard with general performance on 2018 Winter Olympics
 Link: https://public.tableau.com/app/profile/santiago.vallespir7494/viz/Winterolympics_16245278401520/Dashboard1
 
 By country: https://public.tableau.com/app/profile/santiago.vallespir7494/viz/WinterOlympicsbycountry/Dashboard2
+
+
+
+# 6. Build an OLTP Database in SQL Server
+The goal of the project is to build an Online Transaction Processing database from scratch in SQL Server.
+The Database reflects a retail shop database on which every buy order, inventory stock changes and customer data are loaded.
+
+### SQL competences showed:
+- Data Modelling (Data integrity)
+- Build a schema from scratch (entity, relationships, constraints)
+- Views
+- Transactions
+- Stored procedures
